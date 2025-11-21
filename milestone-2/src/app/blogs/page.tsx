@@ -1,14 +1,24 @@
 import BlogPreview from "@/src/components/blogPreview"
 import "../globals.css"
-import blogs from "../blogData"
-export default function Home() {
+import { notFound } from "next/navigation"
+
+
+import Blog from "@/src/database/blogSchema"
+import connectDB from "@/src/database/db"
+export default async function Home() {
+	const base = process.env.NEXT_PUBLIC_BASE_URL!;
+		 
+	const res = await fetch(`${base}/api/blogs`);
+		
+	if (res.status === 404) notFound();
+	if (!res.ok) throw new Error("Failed to load blog");
+	
+	const blogs: any[] = await res.json();
     return (
 		<div className = "blog-container">
-		   {blogs.map(blog => 
-      		<BlogPreview key = {blog.title} {...blog} 
-			
-			/> // This is how we call the component
-			)}	
+		   {blogs.map((b: any) => (
+        <BlogPreview key={b.slug} {...b} />
+      		))}
 			
 		
 		</div>

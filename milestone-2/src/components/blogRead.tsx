@@ -2,15 +2,22 @@ import React from 'react';
 import Image from "next/image";
 import Link from "next/link";
 import style from "./blogRead.module.css"
-import { BlogDetails } from "../app/blogData";
+import Blog from '../database/blogSchema';
 
-export default function BlogRead(props: BlogDetails) {
+
+export default function BlogRead(props: Blog) {
+const date = new Date(props.date).toLocaleDateString("en-US", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+    
     return(
       
             <div className = {style.blog} >
                     <Link href = "/blogs">Back</Link>
                     <h2> {props.title}</h2>
-                    <h3>  {props.date}</h3>
+                    <h3>  {date}</h3>
                     <Image 
                         src={`/images/${props.image}`} 
                         alt = {props.imageAlt} 
