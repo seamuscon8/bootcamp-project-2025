@@ -1,0 +1,4 @@
+[00:00:00.389] Server  LOG      ✓ Ready in 295ms
+[00:00:07.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:34.940] Browser WARN    Image with src "/images/soccergame.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
