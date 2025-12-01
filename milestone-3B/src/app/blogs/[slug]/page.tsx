@@ -7,7 +7,7 @@ import { headers } from "next/headers";
 
 
 
-export default async function TestPage({ params }: { params:Promise<{ slug: string }> }) {
+export default async function Blog({ params }: { params:Promise<{ slug: string }> }) {
   const { slug } = await params;
   const base = process.env.NEXT_PUBLIC_BASE_URL!;
  

@@ -1,4 +1,5 @@
 import mongoose, {Schema} from "mongoose"
+import { commentSchema, IComment } from "./commentSchema";
 
 //typescript type
 type Blog = {
@@ -11,7 +12,10 @@ type Blog = {
     finalScore: string;
     scorers: string[];
     videoLink: string;
+    comments: IComment[];
+    
 }
+
 
 
 //mongoose schema
@@ -24,8 +28,10 @@ export const blogSchema = new Schema<Blog>({
     slug: { type: String, required: true },
     finalScore: { type: String, required: true },
     scorers: { type: [String], required: true},
-    videoLink: { type: String, required: true }
+    videoLink: { type: String, required: true },
+    comments: [commentSchema]
 })
+
 
 // defining the collection and model
 const Blog = mongoose.models['blogs'] ||
