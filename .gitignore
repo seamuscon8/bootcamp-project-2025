@@ -4,3 +4,4 @@ node_modules
 /bootcamp-milestone-one
 **/.DS_Storebootcamp-milestone-1/
 milestone-2/
+.env.local
