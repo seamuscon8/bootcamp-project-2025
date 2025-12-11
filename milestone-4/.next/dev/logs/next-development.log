@@ -1,4 +1,1117 @@
-[00:00:00.389] Server  LOG      ✓ Ready in 295ms
-[00:00:07.332] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:34.940] Browser WARN    Image with src "/images/soccergame.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+[00:00:00.551] Server  LOG      ✓ Ready in 387ms
+[00:00:06.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:06.463] Browser WARN    Image with src "/images/soccergame.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
 Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:00:23.768] Server  LOG      ✓ Compiled in 5ms
+[00:00:23.873] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |   return (
+  23 |     <TextBox></TextBox>
+> 24 |     <form ref={formRef} onSubmit={sendEmail}>
+     |           ^^^
+  25 |       <input type="hidden" name="time" value="Mar 10 2025 08:46" />
+  26 |       <input type="text" name="name" required />
+  27 |       <input type="email" name="email" required />
+
+Expected ',', got 'ref'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:27.392] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |   return (
+  23 |     <TextBox className></TextBox>
+> 24 |     <form ref={formRef} onSubmit={sendEmail}>
+     |           ^^^
+  25 |       <input type="hidden" name="time" value="Mar 10 2025 08:46" />
+  26 |       <input type="text" name="name" required />
+  27 |       <input type="email" name="email" required />
+
+Expected ',', got 'ref'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:31.391] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:23:26
+Parsing ecmascript source code failed
+  21 |
+  22 |   return (
+> 23 |     <TextBox className = firstBox></TextBox>
+     |                          ^^^^^^^^
+  24 |     <form ref={formRef} onSubmit={sendEmail}>
+  25 |       <input type="hidden" name="time" value="Mar 10 2025 08:46" />
+  26 |       <input type="text" name="name" required />
+
+JSX value should be either an expression or a quoted JSX text
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:33.807] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:24:5
+Parsing ecmascript source code failed
+  22 |   return (
+  23 |     <TextBox className = "firstBox></TextBox>
+> 24 |     <form ref={formRef} onSubmit={sendEmail}>
+     |     ^
+  25 |       <input type="hidden" name="time" value="Mar 10 2025 08:46" />
+  26 |       <input type="text" name="name" required />
+  27 |       <input type="email" name="email" required />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:33.807] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:23:26
+Parsing ecmascript source code failed
+  21 |
+  22 |   return (
+> 23 |     <TextBox className = "firstBox></TextBox>
+     |                          ^^^^^^^^^^^^^^^^^^^^
+  24 |     <form ref={formRef} onSubmit={sendEmail}>
+  25 |       <input type="hidden" name="time" value="Mar 10 2025 08:46" />
+  26 |       <input type="text" name="name" required />
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:37.297] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |   return (
+  23 |     <TextBox className = "firstBox"></TextBox>
+> 24 |     <form ref={formRef} onSubmit={sendEmail}>
+     |           ^^^
+  25 |       <input type="hidden" name="time" value="Mar 10 2025 08:46" />
+  26 |       <input type="text" name="name" required />
+  27 |       <input type="email" name="email" required />
+
+Expected ',', got 'ref'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:40.801] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:34:1
+Parsing ecmascript source code failed
+  32 |     
+  33 |   );
+> 34 | }
+     | ^
+  35 |
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:00:42.998] Browser ERROR   uncaughtError: ReferenceError: TextBox is not defined
+[00:00:58.673] Server  LOG      ✓ Compiled in 5ms
+[00:00:58.776] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:4:1
+Parsing ecmascript source code failed
+  2 | import Tex
+  3 |
+> 4 | import { useRef } from "react";
+    | ^^^^^^
+  5 | import emailjs from "@emailjs/browser";
+  6 |
+  7 | export default function ContactForm() {
+
+Expected ',', got 'import'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:01:00.135] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:01:00.281] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:05.800] Server  LOG      ✓ Compiled in 4ms
+[00:02:06.738] Browser LOG     FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:02:09.648] Browser LOG     FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:02:35.916] Browser LOG     FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:04:40.211] Server  LOG      ✓ Compiled in 7ms
+[00:04:40.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:15:7
+Parsing ecmascript source code failed
+  13 |     emailjs.sendForm(
+  14 |       "contact_service",
+> 15 |       "EmailJSResponseStatus
+     |       ^^^^^^^^^^^^^^^^^^^^^^
+  16 | status
+  17 | : 
+  18 | 400
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:04:41.963] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:15:7
+Parsing ecmascript source code failed
+  13 |     emailjs.sendForm(
+  14 |       "contact_service",
+> 15 |       ",
+     |       ^^
+  16 |       formRef.current!,
+  17 |       "BHTsVWeiHKM9VsL8Y"
+  18 |     )
+
+Unterminated string constant
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:05:28.627] Server  LOG      ✓ Compiled in 4ms
+[00:05:30.835] Server  LOG      ✓ Compiled in 4ms
+[00:05:32.568] Server  LOG      ✓ Compiled in 4ms
+[00:05:34.334] Server  LOG      ✓ Compiled in 4ms
+[00:05:35.862] Server  LOG      ✓ Compiled in 3ms
+[00:05:40.790] Server  LOG      ✓ Compiled in 3ms
+[00:06:10.769] Browser LOG     FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:08:03.130] Browser LOG     FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:08:06.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:44.431] Server  LOG      ✓ Compiled in 4ms
+[00:13:47.421] Server  LOG      ✓ Compiled in 17ms
+[00:13:47.961] Browser ERROR   A component is changing a controlled input to be uncontrolled. This is likely caused by the value changing from a defined to undefined, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components
+[00:13:58.405] Server  LOG      ✓ Compiled in 2ms
+[00:14:00.440] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:07.380] Browser LOG     FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:15:16.541] Server  LOG      ✓ Compiled in 6ms
+[00:15:16.960] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:27:2
+Parsing ecmascript source code failed
+  25 |     </TextBox>
+  26 |   );
+> 27 | }
+     |  ^
+  28 |
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:15:17.960] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:27:2
+Parsing ecmascript source code failed
+  25 |     </TextBox>
+  26 |   );
+> 27 | }
+     |  ^
+  28 |
+
+Expected '}', got '<eof>'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:15:21.641] Server  LOG      ✓ Compiled in 15ms
+[00:15:32.070] Server  LOG      ✓ Compiled in 11ms
+[00:15:34.618] Server  LOG      ✓ Compiled in 4ms
+[00:15:38.430] Server  LOG      ✓ Compiled in 2ms
+[00:16:03.168] Server  LOG      ✓ Compiled in 5ms
+[00:16:03.964] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,)
+     |                                                       ^
+  13 |   }
+  14 |   return (
+  15 |     <TextBox classNamed = "firstBox">
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:05.960] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         
+  14 |     )
+  15 |   }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:07.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:18.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name:
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:28.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name: form
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:29.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name: formRe
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:31.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name: formRef
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:33.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name: formRef.t
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:34.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name: formRef.ti
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:16:38.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:55
+Parsing ecmascript source code failed
+  10 |   function sendEmail() {
+  11 |     
+> 12 |     emailjs.send("connact_service","template_7bmnxzi",,
+     |                                                       ^
+  13 |         {
+  14 |             name: formRef.title
+  15 |         }
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:18:17.271] Server  LOG      ✓ Compiled in 10ms
+[00:18:22.230] Server  LOG      ✓ Compiled in 10ms
+[00:18:32.254] Server  LOG      ✓ Compiled in 3ms
+[00:18:33.512] Server  LOG      ✓ Compiled in 3ms
+[00:18:37.022] Server  LOG      ✓ Compiled in 1ms
+[00:18:42.533] Server  LOG      ✓ Compiled in 4ms
+[00:18:45.804] Server  LOG      ✓ Compiled in 4ms
+[00:18:52.237] Server  LOG      ✓ Compiled in 3ms
+[00:19:07.651] Server  LOG      ✓ Compiled in 3ms
+[00:19:21.656] Server  LOG      ✓ Compiled in 4ms
+[00:19:31.077] Server  LOG      ✓ Compiled in 5ms
+[00:19:31.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:12:12
+Parsing ecmascript source code failed
+  10 |
+  11 |
+> 12 |    unction sendEmail() {
+     |            ^^^^^^^^^
+  13 |     
+  14 |     emailjs.send("contact_service","template_7bmnxzi",
+  15 |         {
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:19:41.798] Server  LOG      ✓ Compiled in 4ms
+[00:19:41.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:9:11
+Parsing ecmascript source code failed
+   7 | export default function ContactForm() {
+   8 |    const formRef = useRef<HTMLFormElement>(null);
+>  9 |     const [name,setName]
+     |           ^^^^^^^^^^^^^^
+  10 |
+  11 |
+  12 |    function sendEmail() {
+
+'const' declarations must be initialized
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:19:46.961] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:19:48.847] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:19:48.896] Server  LOG      ✓ Compiled in 4ms
+[00:19:48.927] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[00:19:49.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:49.965] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:20:02.145] Server  LOG      ✓ Compiled in 2ms
+[00:20:02.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {use}
+  4 |
+> 5 | import { useRef } from "react";
+    | ^^^^^^
+  6 | import emailjs from "@emailjs/browser";
+  7 |
+  8 | export default function ContactForm() {
+
+Expected 'from', got 'import'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:20:03.960] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:5:1
+Parsing ecmascript source code failed
+  3 | import {useSt}
+  4 |
+> 5 | import { useRef } from "react";
+    | ^^^^^^
+  6 | import emailjs from "@emailjs/browser";
+  7 |
+  8 | export default function ContactForm() {
+
+Expected 'from', got 'import'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:20:04.533] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:20:04.652] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:28.455] Server  LOG      ✓ Compiled in 4ms
+[00:20:28.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:17:13
+Parsing ecmascript source code failed
+  15 |     emailjs.send("contact_service","template_7bmnxzi",
+  16 |         {
+> 17 |             {}
+     |             ^
+  18 |         }
+  19 |     )
+  20 |   }
+
+Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:20:31.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:17:13
+Parsing ecmascript source code failed
+  15 |     emailjs.send("contact_service","template_7bmnxzi",
+  16 |         {
+> 17 |             {name}
+     |             ^
+  18 |         }
+  19 |     )
+  20 |   }
+
+Unexpected token `{`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:20:36.219] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:20:36.415] Server  ERROR   Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:20:36.593] Server  ERROR    ⨯ "unhandledRejection:" Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:20:36.766] Server  ERROR    ⨯ "unhandledRejection: " Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:20:36.816] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:36.961] Browser ERROR   uncaughtError: SyntaxError: Invalid shorthand property initializer
+[00:20:37.602] Server  LOG      ✓ Compiled in 5ms
+[00:20:37.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:17:26
+Parsing ecmascript source code failed
+  15 |     emailjs.send("contact_service","template_7bmnxzi",
+  16 |         {
+> 17 |             name = {name};
+     |                          ^
+  18 |         }
+  19 |     )
+  20 |   }
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:21:06.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:17:26
+Parsing ecmascript source code failed
+  15 |     emailjs.send("contact_service","template_7bmnxzi",
+  16 |         {
+> 17 |             name = {name};
+     |                          ^
+  18 |         }
+  19 |     )
+  20 |   }
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:21:08.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:17:27
+Parsing ecmascript source code failed
+  15 |     emailjs.send("contact_service","template_7bmnxzi",
+  16 |         {
+> 17 |             name = {nameF};
+     |                           ^
+  18 |         }
+  19 |     )
+  20 |   }
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:21:13.072] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:13.252] Server  ERROR   Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:13.451] Server  ERROR    ⨯ "unhandledRejection:" Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:13.621] Server  ERROR    ⨯ "unhandledRejection: " Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:13.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:13.962] Browser ERROR   uncaughtError: SyntaxError: Invalid shorthand property initializer
+[00:21:20.820] Server  LOG      ✓ Compiled in 4ms
+[00:21:21.036] Server  ERROR    ⨯ Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:21.222] Server  ERROR   Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:21.405] Server  ERROR    ⨯ "unhandledRejection:" Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:21.582] Server  ERROR    ⨯ "unhandledRejection: " Error: Failed to load chunk server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_bad8af34._.js from module [project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/esm/build/templates/app-page.js?page=/about/page { GLOBAL_ERROR_MODULE => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", METADATA_0 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico.mjs { IMAGE => \"[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/favicon.ico (static in ecmascript, tag client)\" } [app-rsc] (structured image object, ecmascript, Next.js Server Component)", MODULE_1 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)", MODULE_2 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/not-found.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_3 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_4 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_5 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/components/builtin/global-error.js [app-rsc] (ecmascript, Next.js Server Component)", MODULE_6 => "[project]/BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [app-rsc] (ecmascript, Next.js Server Component)" } [app-rsc] (ecmascript) <locals>
+[00:21:21.625] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:21.962] Browser ERROR   uncaughtError: SyntaxError: Invalid shorthand property initializer
+[00:21:23.636] Server  LOG      ✓ Compiled in 3ms
+[00:23:12.631] Server  LOG      ✓ Compiled in 8ms
+[00:23:21.111] Server  LOG      ✓ Compiled in 4ms
+[00:23:55.118] Server  LOG      ✓ Compiled in 4ms
+[00:24:05.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:34.219] Browser ERROR   FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:28:37.313] Server  LOG      ✓ Compiled in 6ms
+[00:28:37.965] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:27:7
+Parsing ecmascript source code failed
+  25 |       title: formData.get("title") as string,
+  26 |       message: formData.get("message") as string,
+> 27 |       , 
+     |       ^
+  28 |     };
+  29 |
+  30 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:39.164] Server  LOG      ✓ Compiled in 4ms
+[00:28:39.964] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:26:7
+Parsing ecmascript source code failed
+  24 |       email: formData.get("email") as string,
+  25 |       time: new Date().toString()
+> 26 |       title: formData.get("title") as string,
+     |       ^^^^^
+  27 |       message: formData.get("message") as string,
+  28 |       , 
+  29 |     };
+
+Expected ',', got 'title'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:41.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:28:7
+Parsing ecmascript source code failed
+  26 |       title: formData.get("title") as string,
+  27 |       message: formData.get("message") as string,
+> 28 |       , 
+     |       ^
+  29 |     };
+  30 |
+  31 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:49.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:28:7
+Parsing ecmascript source code failed
+  26 |      
+  27 |       message: formData.get("message") as string,
+> 28 |       , 
+     |       ^
+  29 |     };
+  30 |
+  31 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:51.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:29:7
+Parsing ecmascript source code failed
+  27 |      
+  28 |       message: formData.get("message") as string,
+> 29 |       , 
+     |       ^
+  30 |     };
+  31 |
+  32 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:52.960] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:29:7
+Parsing ecmascript source code failed
+  27 |      
+  28 |       message: formData.get("message") as string,
+> 29 |       , 
+     |       ^
+  30 |     };
+  31 |
+  32 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:53.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:29:7
+Parsing ecmascript source code failed
+  27 |      
+  28 |       message: formData.get("message") as string,
+> 29 |       , 
+     |       ^
+  30 |     };
+  31 |
+  32 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:28:58.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:29:7
+Parsing ecmascript source code failed
+  27 |      
+  28 |       message: formData.get("message") as string,
+> 29 |       , 
+     |       ^
+  30 |     };
+  31 |
+  32 |     try {
+
+Unexpected token `,`. Expected identifier, string literal, numeric literal or [ for the computed key
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:29:17.193] Server  LOG      ✓ Compiled in 4ms
+[00:29:20.105] Server  LOG      ✓ Compiled in 4ms
+[00:29:24.811] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:29:32.839] Browser ERROR   FAILED {"status":400,"text":"The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates"}
+[00:33:49.065] Server  LOG      ✓ Compiled in 4ms
+[00:33:52.376] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:33:59.878] Browser LOG     SUCCESS 200 OK
+[00:35:02.482] Server  LOG      ✓ Compiled in 5ms
+[00:35:02.591] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:56:24
+Parsing ecmascript source code failed
+  54 |         <input type="email" name="email" required />
+  55 |         <input type="text" name="title" required />
+> 56 |         <br></br></brz>
+     |                        ^
+> 57 |         <textarea name="message" required />
+     | ^^^^^^^^^
+  58 |
+  59 |         <input type="submit" value="Send" />
+  60 |       </form>
+
+Expected '</', got 'jsx text (
+        )'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:35:10.959] Server  LOG      ✓ Compiled in 4ms
+[00:35:21.565] Server  LOG      ✓ Compiled in 4ms
+[00:35:23.435] Server  LOG      ✓ Compiled in 4ms
+[00:35:28.848] Server  LOG      ✓ Compiled in 2ms
+[00:35:30.548] Server  LOG      ✓ Compiled in 3ms
+[00:35:33.496] Server  LOG      ✓ Compiled in 3ms
+[00:35:37.544] Server  LOG      ✓ Compiled in 4ms
+[00:35:40.753] Server  LOG      ✓ Compiled in 5ms
+[00:35:40.856] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:55:9
+Parsing ecmascript source code failed
+  53 |         <input type="text" name="name" required />
+  54 |         <p
+> 55 |         <input type="email" name="email" required />
+     |         ^
+  56 |         <input type="text" name="title" required />
+  57 |         <br></br>
+  58 |         <textarea name="message" required />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:35:45.241] Server  LOG      ✓ Compiled in 4ms
+[00:35:47.191] Server  LOG      ✓ Compiled in 4ms
+[00:35:50.892] Server  LOG      ✓ Compiled in 3ms
+[00:36:02.918] Server  LOG      ✓ Compiled in 5ms
+[00:36:07.718] Server  LOG      ✓ Compiled in 4ms
+[00:36:14.501] Server  LOG      ✓ Compiled in 4ms
+[00:36:26.115] Server  LOG      ✓ Compiled in 4ms
+[00:36:35.951] Server  LOG      ✓ Compiled in 5ms
+[00:36:36.053] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:55:9
+Parsing ecmascript source code failed
+  53 |        
+  54 |         <
+> 55 |         <input type="text" name="name" required />
+     |         ^
+  56 |         <p></p>
+  57 |         <input type="email" name="email" required />
+  58 |         <input type="text" name="title" required />
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:36:50.576] Server  LOG      ✓ Compiled in 4ms
+[00:36:57.996] Server  LOG      ✓ Compiled in 4ms
+[00:37:00.402] Server  LOG      ✓ Compiled in 6ms
+[00:37:04.706] Server  LOG      ✓ Compiled in 4ms
+[00:37:13.909] Server  LOG      ✓ Compiled in 4ms
+[00:37:23.419] Server  LOG      ✓ Compiled in 5ms
+[00:37:23.522] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:61:9
+Parsing ecmascript source code failed
+  59 |         <input type="text" name="title" required />
+  60 |         <
+> 61 |         <textarea name="message" required />
+     |         ^
+  62 |
+  63 |         <input type="submit" value="Send" />
+  64 |       </form>
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:37:35.439] Server  LOG      ✓ Compiled in 4ms
+[00:37:48.775] Server  LOG      ✓ Compiled in 6ms
+[00:38:54.662] Server  LOG      ✓ Compiled in 4ms
+[00:38:57.634] Server  LOG      ✓ Compiled in 4ms
+[00:39:00.862] Server  LOG      ✓ Compiled in 2ms
+[00:39:02.952] Server  LOG      ✓ Compiled in 4ms
+[00:39:40.142] Server  LOG      ✓ Compiled in 3ms
+[00:39:41.916] Server  LOG      ✓ Compiled in 6ms
+[00:39:42.960] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:39:55.336] Server  LOG      ✓ Compiled in 4ms
+[00:39:55.961] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:3:1
+Parsing ecmascript source code failed
+  1 | "use client";
+  2 | import useStat
+> 3 | import TextBox from "@/src/components/textBox";
+    | ^^^^^^
+  4 | import { useRef } from "react";
+  5 | import emailjs from "@emailjs/browser";
+  6 |
+
+Expected ',', got 'import'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:39:56.454] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:39:56.570] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:40:06.886] Server  LOG      ✓ Compiled in 4ms
+[00:40:12.701] Server  LOG      ✓ Compiled in 4ms
+[00:40:31.224] Server  LOG      ✓ Compiled in 5ms
+[00:40:49.273] Server  LOG      ✓ Compiled in 5ms
+[00:40:50.674] Server  LOG      ✓ Compiled in 4ms
+[00:40:52.610] Server  LOG      ✓ Compiled in 5ms
+[00:40:55.224] Server  LOG      ✓ Compiled in 4ms
+[00:40:55.963] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:65:9
+Parsing ecmascript source code failed
+  63 |         <input type="submit" value="Send" />
+  64 |       </form>
+> 65 |     {s  tatus === "success" && (
+     |         ^^^^^
+  66 |   <p style={{ color: "green", marginTop: "10px" }}>
+  67 |     Your message has been sent!
+  68 |   </p>
+
+Expected '</', got 'tatus'
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:41:00.017] Server  LOG      ✓ Compiled in 6ms
+[00:41:01.310] Server  LOG      ✓ Compiled in 4ms
+[00:41:14.576] Server  LOG      ✓ Compiled in 4ms
+[00:41:35.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:41:50.431] Browser LOG     SUCCESS 200 OK
+[00:42:07.612] Browser LOG     SUCCESS 200 OK
+[00:43:27.949] Server  LOG      ✓ Compiled in 4ms
+[00:43:33.480] Server  LOG      ✓ Compiled in 4ms
+[00:43:35.438] Server  LOG      ✓ Compiled in 3ms
+[00:43:38.819] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:55.850] Browser LOG     SUCCESS 200 OK
+[00:50:08.820] Server  LOG        Reload env: .env.local
+[00:50:08.909] Server  LOG      ✓ Compiled in 24ms
+[00:50:08.909] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./BootCamp/bootcamp-project-2025/milestone-4/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:50:09.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:11.182] Server  LOG        Reload env: .env.local
+[00:50:17.412] Server  LOG        Reload env: .env.local
+[00:50:21.806] Server  LOG        Reload env: .env.local
+[00:50:22.917] Server  LOG        Reload env: .env.local
+[00:50:29.210] Server  LOG        Reload env: .env.local
+[00:50:32.920] Server  LOG        Reload env: .env.local
+[00:50:38.256] Server  LOG        Reload env: .env.local
+[00:50:51.569] Server  LOG        Reload env: .env.local
+[00:50:53.224] Server  LOG        Reload env: .env.local
+[00:50:54.986] Server  LOG        Reload env: .env.local
+[00:51:30.723] Server  LOG        Reload env: .env.local
+[00:51:32.639] Server  LOG        Reload env: .env.local
+[00:51:39.365] Server  LOG        Reload env: .env.local
+[00:51:56.263] Server  LOG        Reload env: .env.local
+[00:52:01.159] Server  LOG        Reload env: .env.local
+[00:52:15.908] Server  LOG        Reload env: .env.local
+[00:52:29.042] Server  LOG        Reload env: .env.local
+[00:52:32.165] Server  LOG        Reload env: .env.local
+[00:52:35.589] Server  LOG        Reload env: .env.local
+[00:52:39.467] Server  LOG        Reload env: .env.local
+[00:52:42.691] Server  LOG        Reload env: .env.local
+[00:52:44.133] Server  LOG        Reload env: .env.local
+[00:52:46.116] Server  LOG        Reload env: .env.local
+[00:52:53.715] Server  LOG        Reload env: .env.local
+[00:52:56.444] Server  LOG        Reload env: .env.local
+[00:53:06.139] Server  LOG        Reload env: .env.local
+[00:53:08.587] Server  LOG        Reload env: .env.local
+[00:53:15.883] Server  LOG        Reload env: .env.local
+[00:54:12.962] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:35:9
+Parsing ecmascript source code failed
+  33 |       const result = await emailjs.send(
+  34 |         "contact_service",       
+> 35 |         ,      
+     |         ^
+  36 |         templateParams,          
+  37 |         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY   
+  38 |       );
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:54:26.191] Server  LOG      ✓ Compiled in 4ms
+[00:55:09.960] Browser ERROR   ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx:34:21
+Parsing ecmascript source code failed
+  32 |     try {
+  33 |       const result = await emailjs.send(
+> 34 |         process.env.,       
+     |                     ^
+  35 |         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,      
+  36 |         templateParams,          
+  37 |         process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY   
+
+Expected ident
+
+Import traces:
+  Client Component Browser:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component Browser]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Client Component SSR]
+    ./BootCamp/bootcamp-project-2025/milestone-4/src/app/about/page.tsx [Server Component]
+[00:55:12.676] Server  LOG      ✓ Compiled in 4ms
+[00:55:38.110] Browser LOG     SUCCESS 200 OK

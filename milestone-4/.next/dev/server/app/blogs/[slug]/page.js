@@ -1,6 +1,6 @@
 var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/blogs/[slug]/page.js")
 R.c("server/chunks/ssr/3a166_400a1875._.js")
-R.c("server/chunks/ssr/[root-of-the-server]__a9cebbd4._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__966fd8d1._.js")
 R.c("server/chunks/ssr/3a166_8667b3a9._.js")
 R.c("server/chunks/ssr/[root-of-the-server]__e8a2741f._.js")
 R.c("server/chunks/ssr/BootCamp_bootcamp-project-2025_milestone-4_src_app_a9bf81ad._.js")

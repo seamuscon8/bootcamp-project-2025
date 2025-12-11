@@ -5,6 +5,7 @@ import style from "./blogRead.module.css"
 import Blog from '../database/blogSchema';
 import TextBox from './textBox';
 import Comment from './comment';
+import CommentForm from './commentForm';
 
 
 export default function BlogRead(props: Blog) {
@@ -57,6 +58,9 @@ export default function BlogRead(props: Blog) {
                      <Comment key={index} comment={comment} />
                     ))}
                   
+                    <CommentForm slug={props.slug} />
+
+
             </TextBox>
             ) : null}
         </>
